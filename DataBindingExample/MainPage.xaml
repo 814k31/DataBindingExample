@@ -20,8 +20,11 @@
                 HorizontalOptions="Center"
             />
 
-            <!-- Why doesn this work? -->
-            <DataBindingExample:Card CardIncrement="{Binding IncrementedValue}" />
+            <!-- Why doesnt this work? -->
+            <DataBindingExample:Card
+                CardTitle="Title works when set like this"
+                CardIncrement="{Binding IncrementedValue}"
+            />
 
             <Button
                 x:Name="CounterBtn"

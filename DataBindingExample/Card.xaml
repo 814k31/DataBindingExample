@@ -11,7 +11,7 @@
     BackgroundColor="red"
 >
     <Label
-        Text="Card"
+        Text="{Binding CardTitle}"
         SemanticProperties.HeadingLevel="Level1"
         FontSize="32"
         HorizontalOptions="Center"
